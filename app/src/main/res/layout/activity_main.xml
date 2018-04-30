@@ -45,15 +45,10 @@
             tools:layout_editor_absoluteX="84dp"
             tools:layout_editor_absoluteY="193dp" />
 
-        <EditText
+        <Spinner
             android:id="@+id/favoriteNumberInput"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Favorite Number (42)"
-            android:inputType="number"
-            tools:layout_editor_absoluteX="85dp"
-            tools:layout_editor_absoluteY="232dp" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/submitButton"
